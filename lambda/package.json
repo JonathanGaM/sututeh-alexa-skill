@@ -1,0 +1,22 @@
+{
+  "name": "sututeh-alexa-skill",
+  "version": "1.0.0",
+  "description": "Skill oficial del Sindicato SUTUTEH para Amazon Alexa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "sututeh",
+    "sindicato"
+  ],
+  "author": "SUTUTEH",
+  "license": "MIT",
+  "dependencies": {
+    "ask-sdk-core": "^2.13.0",
+    "ask-sdk-model": "^1.48.0",
+    "axios": "^1.6.0"
+  }
+}

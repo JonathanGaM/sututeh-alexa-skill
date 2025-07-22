@@ -1,0 +1,244 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "fechaNacimiento",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "name": "CapturarFechaNacimientoIntent",
+          "samples": [
+            "mi fecha de nacimiento es {fechaNacimiento}",
+            "nací el {fechaNacimiento}",
+            "mi fecha de nacimiento es el {fechaNacimiento}",
+            "yo nací el {fechaNacimiento}",
+            "soy del {fechaNacimiento}",
+            "mi cumpleaños es el {fechaNacimiento}",
+            "nací en {fechaNacimiento}",
+            "mi fecha es {fechaNacimiento}",
+            "fecha de nacimiento {fechaNacimiento}",
+            "cumpleaños {fechaNacimiento}",
+            "nací {fechaNacimiento}",
+            "el {fechaNacimiento}",
+            "{fechaNacimiento}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroSindicalizado",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "CapturarNumeroSindicalizadoIntent",
+          "samples": [
+            "mi número es {numeroSindicalizado}",
+            "mi número sindicalizado es {numeroSindicalizado}",
+            "soy el número {numeroSindicalizado}",
+            "mi número de sindicalizado es {numeroSindicalizado}",
+            "yo soy el {numeroSindicalizado}",
+            "me identifico con el número {numeroSindicalizado}",
+            "mi identificación es {numeroSindicalizado}",
+            "número {numeroSindicalizado}",
+            "soy el agremiado {numeroSindicalizado}",
+            "mi número real es {numeroSindicalizado}",
+            "mi código es {numeroSindicalizado}",
+            "mi identificación sindical es {numeroSindicalizado}",
+            "tengo el número {numeroSindicalizado}",
+            "mi número de afiliado es {numeroSindicalizado}",
+            "soy el afiliado {numeroSindicalizado}",
+            "respondo al número {numeroSindicalizado}",
+            "el número {numeroSindicalizado}",
+            "{numeroSindicalizado}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "NoticiasSemanalesIntent",
+          "samples": [
+            "noticias de esta semana",
+            "qué noticias hay esta semana",
+            "noticias de la semana",
+            "novedades de esta semana",
+            "qué ha pasado esta semana",
+            "cuáles son las noticias de esta semana",
+            "dame las noticias semanales",
+            "noticias recientes de la semana",
+            "qué noticias nuevas hay",
+            "novedades semanales"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "UltimasNoticiasIntent",
+          "samples": [
+            "últimas noticias",
+            "noticias recientes",
+            "qué noticias hay",
+            "cuéntame las noticias",
+            "dame las noticias",
+            "noticias del sindicato",
+            "novedades",
+            "qué ha pasado",
+            "cuáles son las últimas noticias",
+            "noticias nuevas",
+            "lee las noticias",
+            "dime las noticias"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ReunionesSemanalesIntent",
+          "samples": [
+            "reuniones de esta semana",
+            "qué reuniones hay esta semana",
+            "reuniones de la semana",
+            "juntas de esta semana",
+            "cuáles son las reuniones de esta semana",
+            "reuniones semanales",
+            "que reuniones tengo esta semana",
+            "juntas de la semana",
+            "reuniones programadas esta semana",
+            "cuándo hay reuniones esta semana"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ProximasReunionesIntent",
+          "samples": [
+            "próximas reuniones",
+            "reuniones de la próxima semana",
+            "reuniones que vienen",
+            "próximas juntas",
+            "qué reuniones hay la próxima semana",
+            "reuniones de la siguiente semana",
+            "reuniones futuras",
+            "próximas citas",
+            "reuniones programadas",
+            "cuándo son las próximas reuniones"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "AuthenticationIntent",
+          "samples": [
+            "autenticación",
+            "autenticar",
+            "verificar identidad",
+            "continuar con autenticación",
+            "iniciar sesión",
+            "verificar",
+            "identificarme",
+            "acceder al sistema"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "DashboardIntent",
+          "samples": [
+            "dashboard",
+            "menú principal",
+            "opciones",
+            "ir al dashboard",
+            "menú",
+            "pantalla principal",
+            "inicio",
+            "opciones principales"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "OptionOneIntent",
+          "samples": [
+            "opción uno",
+            "opción primera",
+            "primera opción",
+            "seleccionar uno",
+            "noticias",
+            "ver noticias",
+            "sección noticias",
+            "mostrar noticias",
+            "información",
+            "novedades"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "OptionTwoIntent",
+          "samples": [
+            "opción dos",
+            "opción segunda",
+            "segunda opción",
+            "seleccionar dos",
+            "reuniones",
+            "ver reuniones",
+            "sección reuniones",
+            "mostrar reuniones",
+            "juntas",
+            "eventos"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "LogoutIntent",
+          "samples": [
+            "salir",
+            "cerrar sesión",
+            "logout",
+            "terminar sesión",
+            "desconectar",
+            "finalizar",
+            "cerrar",
+            "salir del sistema",
+            "terminar",
+            "desconectarme",
+            "cerrar mi sesión",
+            "quiero salir"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "AyudaIntent",
+          "samples": [
+            "ayuda",
+            "help",
+            "necesito ayuda",
+            "qué puedo hacer",
+            "cómo funciona",
+            "instrucciones",
+            "guía",
+            "asistencia",
+            "explícame",
+            "información",
+            "dame ayuda"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "sindicato hidalgo"
+    }
+  }
+}
